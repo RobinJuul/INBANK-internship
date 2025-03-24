@@ -41,3 +41,41 @@ This should be fixed by implementing interfaces for Credit Score calculations an
 
 ### The code has been fixed and TICKET - 102 has been implemented aswell. The back-end code was improved, relying on the SOLID-principles and required functionalities which the task required.
 
+## Few comments
+In the backend repo, there are examples of Requests and Responses.
+
+**Request example:**
+
+```json
+{
+"personalCode": "50307172740",
+"loanAmount": "5000",
+"loanPeriod": "24"
+}
+```
+
+The response body contains the following fields:
+
+- loanAmount: The approved loan amount.
+- loanPeriod: The approved loan period.
+- errorMessage: An error message, if any.
+
+**Response example:**
+
+```json
+{
+"loanAmount": 2400,
+"loanPeriod": 24,
+"errorMessage": null
+}
+```
+
+Since this spec was given, I completed the task with types given in example, but I did think about changing both types to match. 
+
+Right now the request consists of String-values and response consists of Integer-values but a good practice would be to change them to the same value-type. 
+
+If I had to further develop the code, I would make them of the same type.
+
+##
+
+Author: **Robin Juul**
