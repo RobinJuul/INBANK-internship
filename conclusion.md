@@ -39,3 +39,5 @@ This should be fixed by implementing interfaces for Credit Score calculations an
 ### DI
 * dependencies, such as pesonal code validation could be injected via separate constructor
 
+### The code has been fixed and TICKET - 102 has been implemented aswell. The back-end code was improved, relying on the SOLID-principles and required functionalities which the task required.
+
