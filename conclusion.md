@@ -78,4 +78,3 @@ If I had to further develop the code, I would make them of the same type.
 
 ##
 
-Author: **Robin Juul**

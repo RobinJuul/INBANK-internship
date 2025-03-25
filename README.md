@@ -19,7 +19,7 @@ Once k6 is installed, run the load test:
 ```
 k6 run --vus 1000 --duration 1m load_test.js
 ```
-This script uses 1000 VUs (Virtual Users) that each make 10 requests per second
+This script uses 1000 VUs (Virtual Users) that each make 10 requests per second and the test's duration is 1 minute.
 ### Results gotten from load test:
 * Requests per second: 9,827.3 (Very close to target of 10,000)
 * Total Requests: 590,520
